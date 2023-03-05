@@ -4,7 +4,7 @@ import SideBar from "../../components/sideBar/SideBar";
 
 export default function Layout() {
   return (
-    <div className="w-full grid grid-cols-1 ">
+    <div className="max-w-[100%] md:grid-cols-[350px_2fr] lg:max-w-[85%] xl:max-w-[75%] m-auto grid grid-cols-1">
       <SideBar />
       <Outlet />
     </div>
