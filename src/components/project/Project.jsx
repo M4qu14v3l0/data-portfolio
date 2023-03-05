@@ -18,19 +18,22 @@ import {
 
   return (
     <article className='flex flex-col p-5 gap-5'>
-        <Link to={"/"} className="flex gap-2 items-center h-10 bg-[#f3f4f6] w-fit rounded-full p-3 text-xs">
-            <AiOutlineArrowLeft /> back
+        <Link to={"/"}>
+            <div className='flex gap-2 items-center justify-center h-8 bg-[#f3f4f6] w-fit rounded-full p-4 text-xs'>
+                <AiOutlineArrowLeft className='translate-y-[0.9px]'/>
+                <p className='flex items-center h-8'>back</p>
+            </div>
         </Link>
         
         <h1 className='text-3xl font-semibold'>{project.title}</h1>
         <img
             src={project.img}    
             alt={project.title}
-            className="w-full min-h-fit rounded-xl"
+            className="w-full lg:w-[500px] min-h-fit rounded-xl"
         />
         <div className='flex flex-col gap-3'>
             <h3 className='text-xs'>About this project</h3>
-            <p>{project.description}</p>
+            <p className='text-justify'>{project.description}</p>
         </div>
         <div className='flex flex-col gap-3'>
             <h3 className='text-xs'>Skills</h3>

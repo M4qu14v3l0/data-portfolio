@@ -3,7 +3,7 @@ import Profile from "./Profile";
 import Skills from "./Skills"
 export default function SideBar() {
   return (
-    <nav className="flex flex-col gap-7 max-h-fit bg-gray-100 p-5">
+    <nav className="flex flex-col gap-7 max-h-fit bg-gray-50 p-5 rounded-br-2xl">
         <Profile />
         <About />
         <Skills />

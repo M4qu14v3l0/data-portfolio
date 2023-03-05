@@ -11,7 +11,7 @@ export default function Exp({experience}) {
                     <div className="flex flex-wrap gap-3">
                         {
                             exp.technologies.map((technology) => (
-                                <p className="whitespace-nowrap text-xs text-center bg-[#f3f4f6] p-2 h-fit w-auto rounded-full" key={technology}>{technology}</p>
+                                <p className="whitespace-nowrap text-xs text-center bg-[#f3f4f6] p-2 h-6 flex items-center w-auto rounded-full" key={technology}>{technology}</p>
                             ))
                         }
                     </div>
