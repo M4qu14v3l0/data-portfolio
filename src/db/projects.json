@@ -19,6 +19,17 @@
           "Selenium",
           "mysql"
        ],
-       "description":"Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region."
+       "description":"Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can build service stations for all taxis operating in that region.Define key clusters of taxi locations in Johannesburg, where we can."
+    },
+    {
+       "id":3,
+       "img":"https://www.datascienceportfol.io/static/profile_pics/pr5_1DD48B972CB68427FC82.png",
+       "title":"Netflix Dashboard using Tableau",
+       "technologies":[
+          "Python",
+          "Selenium",
+          "mysql"
+       ],
+       "description":"lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100lorem100"
     }
  ]
