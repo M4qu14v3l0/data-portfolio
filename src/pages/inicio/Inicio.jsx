@@ -4,7 +4,7 @@ import Projects from "../../components/inicio/projects/Projects";
 
 export default function Inicio() {
   return (
-    <main className="flex flex-col gap-10 p-5">
+    <main className="flex flex-col gap-10 p-10">
       <Projects />
       <Experience />
       <Education />

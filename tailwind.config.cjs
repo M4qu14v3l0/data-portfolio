@@ -6,11 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // gridTemplateColumns:{
-      //   'main' : '1fr 2fr'
-      // }
 
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 }

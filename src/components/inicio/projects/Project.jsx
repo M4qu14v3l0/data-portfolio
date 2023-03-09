@@ -20,9 +20,11 @@ export default function Project({projects , icon}) {
                                 ))
                             }
                         </div>
-                        <p className="text-[#4b5563] text-sm text-justify">
-                            {project.description}
-                        </p>
+                        <div className="line-clamp-3">
+                            <p className="text-[#4b5563] text-sm text-justify">
+                                {project.description}
+                            </p>
+                        </div>
                         <p className="flex items-center gap-2 text-blue-600">
                             Read more {icon}
                         </p>
