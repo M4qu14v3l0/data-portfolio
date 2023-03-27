@@ -7,6 +7,7 @@ export default function SideBar() {
         <Profile />
         <About />
         <Skills />
+        {/* comment */}
     </nav>
   )
 }
